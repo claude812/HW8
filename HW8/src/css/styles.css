@@ -1,0 +1,137 @@
+/* Color Palette
+
+Primary:
+#0891B2
+(Cyan)
+Secondary:
+#06B6D4
+(Bright Cyan)
+Accent:
+#F97316
+(Orange)
+Neutral:
+#F9FAFB
+(Off-White)
+Text:
+#0F172A
+(Slate)
+*/
+
+/* Global styles 
+------------------------------------*/
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+     text-align: center;
+        z-index: 1000;
+         background-color: #0891B2;
+         padding:40px;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+.column-narrow{
+width: 30%;
+float left;
+padding-right: 3%;
+min-height: 175px;
+
+}
+.column-wide{
+width: 70%;
+ float left;
+  min-height: 225px;
+
+  }
+.content-wrap{
+max-width: 950px;
+margin: 0 auto;
+padding: 50px;
+}
+body {
+
+font-family: 'Fira Sans', sans-serif;
+background-color:#F9FAFB;
+margin: 0;
+}
+h1, h2, h3 {
+    font-family: 'Oswald', sans-serif;
+    margin-top: 0;
+
+}
+h1{
+font-size: 3rem;
+font-weight:600;
+margin: 0;
+}
+h2{
+font-size: 2rem;
+font-weight:500;
+margin-top: 0;
+}
+h3{
+font-size: 1.5rem;
+font-weight:400;
+}
+
+/* Work Experience
+------------------------------------*/
+
+ .work {
+       background:url(Me.jpg);
+
+   }
+.alpha-work{
+background:rgba(0,119,181,0.75)}
+
+   /* Education
+   ------------------------------------*/
+   .education{
+   background-color:#06B6D4;
+      color:#0F172A;
+
+   }
+
+
+
+/* Header & Footer 
+------------------------------------*/
+header{
+background-color:#0891B2;
+color:#F9FAFB;
+text-align:center
+}
+footer{
+background-color:#06B6D4;
+color:#0F172A;
+text-align:center;
+
+
+
+}
+
+.Profile-img{
+
+border-radius:50%;
+
+overflow:hidden;
+
+
+}
+.contact-info a{
+padding: 10px;
+display: inline-block;
+
+}
+
+
+
+
+
